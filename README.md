@@ -2,6 +2,14 @@
 
 Convert RDF files to any serialization format via [rdflib](https://github.com/RDFLib/rdflib)
 
+## Installation
+
+Install using `pip`:
+
+```shell
+$ pip install git+https://github.com/svenrdz/rdfc
+```
+
 ## Examples
 
 ```shell
