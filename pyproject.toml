@@ -1,6 +1,6 @@
 [project]
 name = "rdfc"
-version = "0.2.3"
+version = "0.2.4"
 description = "Convert RDF files to any serialization format via rdflib"
 authors = [
     {name = "svenrdz", email = "srodriguez@ipsl.fr"},
@@ -9,9 +9,11 @@ dependencies = [
     "rdflib>=6.3.2",
     "typer[all]>=0.9.0",
 ]
+classifiers = [
+  "License :: OSI Approved :: BSD-3-Clause",
+]
 requires-python = ">=3.8"
 readme = "README.md"
-license = {text = "MIT"}
 
 [build-system]
 requires = ["setuptools>=61", "wheel"]
