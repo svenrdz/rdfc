@@ -1,6 +1,6 @@
 [project]
 name = "rdfc"
-version = "0.2.4"
+version = "0.2.5"
 description = "Convert RDF files to any serialization format via rdflib"
 authors = [
     {name = "svenrdz", email = "srodriguez@ipsl.fr"},
