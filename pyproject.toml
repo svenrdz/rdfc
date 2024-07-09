@@ -18,8 +18,8 @@ requires = ["setuptools>=61", "wheel"]
 build-backend = "setuptools.build_meta"
 
 
-[tool.pdm]
-package-type = "library"
 
+[tool.pdm]
+distribution = true
 [project.scripts]
 rdfc = "rdfc.__main__:app"
